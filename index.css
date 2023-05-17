@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+#hero {
+    background-color: #1f2937;
+    min-height: 100vh;
+}
+
+#hero header, #hero header ul, #hero-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hero header ul {
+    gap: 20px;
+}
+
+#logo, #hero h1 {
+    color: #f9faf8;
+}
+
+#hero-content p, #hero li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+#hero ul {
+    list-style-type: none;
+}
+
+#hero-content {
+    flex: 1;
+}
+
+#hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#placeholder {
+    padding: 200px 400px;
+    background-color: #6d747d;
+}
